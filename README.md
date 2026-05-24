@@ -62,7 +62,7 @@ Raw Metrics → Understanding → Action
 #  Productivity Metrics Used
 
 | Metric | Description |
-|---|---|
+|---|---
 | Lead Time | Time from PR creation to production deployment |
 | Cycle Time | Time from issue start to completion |
 | Bug Rate | Production bugs divided by completed issues |

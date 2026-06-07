@@ -60,16 +60,16 @@ function App() {
   const [metrics, setMetrics] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/developers")
-      .then((res) => res.json())
-      .then((data) => setDevelopers(data))
-      .catch((err) => console.error("Error fetching developers:", err));
+  fetch("https://developer-productivity-backend-dadv.onrender.com/developers")
+    .then((res) => res.json())
+    .then((data) => setDevelopers(data))
+    .catch((err) => console.error("Error fetching developers:", err));
   }, []);
 
   const handleSelectDeveloper = (developer) => {
     setSelectedDeveloper(developer);
 
-    fetch(`http://localhost:5000/metrics/${developer.id}`)
+    fetch(`https://developer-productivity-backend-dadv.onrender.com/metrics/${developer.id}`)
       .then((res) => res.json())
       .then((data) => setMetrics(data))
       .catch((err) => console.error("Error fetching metrics:", err));

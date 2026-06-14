@@ -71,6 +71,16 @@ Raw Metrics → Understanding → Action
 
 ---
 
+## Live Demo
+
+Frontend (Vercel):
+https://developer-productivity-mvp-three.vercel.app/
+
+Backend (Render):
+https://developer-productivity-backend-dadv.onrender.com
+
+---
+
 #  Key Functionalities
 
 ## Developer Selection
